@@ -1,4 +1,12 @@
 export const themeData = {
+  "locales": {
+    "/": {
+      "selectLanguageName": "English"
+    },
+    "/zh/": {
+      "selectLanguageName": "简体中文"
+    }
+  },
   "logo": "https://vuejs.org/images/logo.png",
   "navbar": [
     {
@@ -44,11 +52,6 @@ export const themeData = {
     },
     "/bar/README.md"
   ],
-  "locales": {
-    "/": {
-      "selectLanguageName": "English"
-    }
-  },
   "darkMode": true,
   "repo": null,
   "selectLanguageText": "Languages",

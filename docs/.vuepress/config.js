@@ -4,10 +4,26 @@ module.exports = {
   title: 'V2 Express',
   description: '这是我的第一个 VuePress 站点',
   logo: 'https://vuejs.org/images/logo.png',
-
+  externalLinkIcon: true,
+  locales: {
+    '/': {
+      lang: 'en-US',
+    },
+    '/zh/': {
+      lang: 'zh-CN',
+    },
+  },
   // 主题和它的配置
   theme: '@vuepress/theme-default',
   themeConfig: {
+    locales: {
+      '/': {
+        selectLanguageName: 'English',
+      },
+      '/zh/': {
+        selectLanguageName: '简体中文',
+      },
+    },
     logo: 'https://vuejs.org/images/logo.png',
     // navbar: [
     //   // NavbarItem
